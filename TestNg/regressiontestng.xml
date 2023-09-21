@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+  <test name="Regression Testing">
+  	<groups>
+  		<run>
+    		<include name="regression"></include>
+    		<include name="smoke"></include>
+    		<exclude name="bvt"></exclude>
+  		</run>  
+ 	 </groups>
+    <classes>
+      <class name="org.launchfb.Groups"/>
+      <class name="org.launchfb.AssertionClass"/>
+      <class name="org.launchfb.LoginTest"/>
+      <class name="org.launchfb.LaunchFb"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

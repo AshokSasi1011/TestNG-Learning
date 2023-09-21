@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Groupassert Suite]">
+  <test thread-count="5" name="Separate Test(failed)">
+    <classes>
+      <class name="org.launchfb.AssertionClass">
+        <methods>
+          <include name="multTests"/>
+        </methods>
+      </class> <!-- org.launchfb.AssertionClass -->
+    </classes>
+  </test> <!-- Separate Test(failed) -->
+</suite> <!-- Failed suite [Groupassert Suite] -->

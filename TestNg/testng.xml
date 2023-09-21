@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LaunchFB Suite">
+  <test name="Functional Testing">
+    <classes>
+      <class name="org.launchfb.Groups"/>
+      <class name="org.launchfb.AssertionClass"/>
+      <class name="org.launchfb.LoginTest"/>
+      <class name="org.launchfb.LaunchFb"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
